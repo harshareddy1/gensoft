@@ -1,0 +1,105 @@
+body {
+    background-color: grey;
+    font-family: sans-serif, Arial, 'Arial Narrow', 'Times New Roman', Times, serif;
+}
+
+#container {
+    background-color: white;
+    width: 1200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#header {
+    background-color: #d1144b;
+    height: 175px;
+}
+
+#logo {
+    float: right;
+    
+}
+
+#navBar {
+    background-color:#cba524;
+    color: #000;
+    height: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+
+}
+
+h1 {
+    font-size: 16px;
+
+}
+
+li a {
+    padding: 8px;
+}
+li a:hover {
+    background-color:peru;
+}
+
+#featured-content {
+    margin: 20px;
+    padding: 3px;
+    overflow: hidden;
+    width: auto;
+    border: 2px solid peru;
+
+}
+
+#main-content {
+    margin: 20px;
+    padding: 3px;
+    overflow: hidden;
+    width: auto;
+    border: 2px solid peru;
+
+}
+
+#left-img {
+    margin: 10px;
+    width: 48%;
+    float: left;
+
+}
+
+#right-img {
+    margin:10px;
+    width: 48%;
+    float: right;
+
+}
+
+#featured-message {
+    width: 50%;
+    float: left;
+
+}
+
+#slide img {
+    width: 48%;
+    float: right;
+    max-width: 700px;
+
+}
+
+#footer {
+    background-color: brown;
+    color: #000;
+
+}
